@@ -1,25 +1,17 @@
-import logo from './logo.svg';
+//the main component that return app the index.
+//importation of css file and the profile component
 import './App.css';
-
+import Profile from './profile/Profile';
+//the arrow function
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="App-header"> 
+        <Profile></Profile>
       </header>
     </div>
   );
 }
-
+//exportation of the app
 export default App;
